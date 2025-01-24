@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from './Logo'
 import Search from './Search'
 import { Darkmode } from './Darkmode'
+import DropdownListMenu from './DropdownListMenu'
 
 
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
             {/* { Darkmode } */}
             <div className='flex gap-4'>
                 <Darkmode/>
-                <h1>Profile</h1>
+                <DropdownListMenu/>
             </div>
         </div>
     </nav>
